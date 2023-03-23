@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "/cp/dist/",
+  "homepage": "/cp/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
