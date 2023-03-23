@@ -22,7 +22,7 @@ const router = createBrowserRouter(
       element: <Matches />,
     },
   ],
-  { basename: "/control-panel/" }
+  { basename: "/cp/" }
 );
 
 ReactDOM.createRoot(document.getElementById("root")).render(
