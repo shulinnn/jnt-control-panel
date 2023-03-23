@@ -17,7 +17,7 @@ jobs:
           KEY: ${{ secrets.SSHKEY }}
         with:
           source: "dist/."
-          target: "/var/www/jnt/frontend/cp"
+          target: "/var/www/jnt/frontend/dist/cp/"
 
       - name: Executing remote command
         uses: appleboy/ssh-action@master
