@@ -7,23 +7,20 @@ import Root from "./views/root";
 import Players from "./views/players";
 import Matches from "./views/matches";
 
-const router = createBrowserRouter(
-  [
-    {
-      path: "/",
-      element: <Root />,
-    },
-    {
-      path: "/players",
-      element: <Players />,
-    },
-    {
-      path: "/matches",
-      element: <Matches />,
-    },
-  ],
-  { basename: "/cp" }
-);
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Root />,
+  },
+  {
+    path: "/players",
+    element: <Players />,
+  },
+  {
+    path: "/matches",
+    element: <Matches />,
+  },
+]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
