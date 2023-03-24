@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://jnt.wbgl.eu/cp/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
